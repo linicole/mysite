@@ -1,16 +1,17 @@
 # Site settings
 baseurl = "your_site_url_address"
 languageCode = "en"
-title = "site title"
+title = "LIN"
 theme = "hugo-theme-cactus-plus"
 googleAnalytics = "your_google_analytics_id"
 # Set the value to true if your site include CJK (Chinese, Japanese, and Korean languages) characters
 hasCJKLanguage = false
 
+
 [params]
 	author = "LIN"
-	description = "Site Description"
-	bio = "Data Scientist | Photographer | Explorer"
+	description = "SKETCHING SPACE"
+	bio = "Data Scientist  |  Photographer  |  Explorer"
 
 	twitter = "lliniko"
 	facebook = "your_facebook_id"
@@ -18,13 +19,13 @@ hasCJKLanguage = false
 	enableRSS = true
 	enableToc = true
 
-	enableDisqus = true
+	enableDisqus = false
 	disqusShortname = "your_disqus_short_name"
 
 
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
+	useDescriptionReplaceSummary = true
 
 
 	enableGoogleAnalytics = true
@@ -46,15 +47,15 @@ hasCJKLanguage = false
 	# Navigation links
 	home = ""
 	about = ""
-	archive = ""
-	subscribe = ""
+	archive = "Sketching"
+	subscribe = "Resume"
 
 	olderPosts = ""
 	newerPosts = ""
 	copyright = ""
 
 	# show latest posts in single page
-	showLatestPosts = false
+	showLatestPosts = true
 	readMore = ""
 
 	# Share
@@ -77,3 +78,4 @@ hasCJKLanguage = false
 	facebook-square = "https://www.facebook.com/profile.php?id=100002762601526"
 	twitter-square = "https://www.twitter.com/lliniko"
 	github-square = "https://github.com/linicole"
+	linkedin-square = "https://www.linkedin.com/in/llinicole/"
